@@ -1,0 +1,104 @@
+html {
+  height: 100%;
+}
+body {
+  background: url("A.jpg");
+  background: url("A.jpg");
+  height: 100%;
+  margin: 0;
+  color: #000;
+  font-size: 12px;
+  font-family: "Lato", "Times New Roman", Times, serif;
+}
+a {
+  color: #5552f6;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+section {
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.home {
+  width: 50%;
+  height: 500px;
+  background: #fff;
+}
+.photo {
+  position: relative;
+  background: url("bbb.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 500px;
+  display: inline-block;
+  float: left;
+}
+.desc {
+  position: absolute;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  bottom: 0;
+  background: rgba(229, 229, 229, 0);
+  background: -moz-linear-gradient(top, #e5e5e5 0%, #000000 100%);
+  background: -webkit-linear-gradient(
+    top,
+    rgba(229, 229, 229, 0) 0%,
+    #000000 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(229, 229, 229, 0) 0%,
+    #000000 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#000000',GradientType=0 );
+}
+.cdesc {
+  padding: 20px;
+}
+.content {
+  display: inline-block;
+  float: left;
+  width: calc(100% - 300px);
+}
+.menu {
+  background-color: #f6f6f6;
+}
+/*menu*/
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+ul > li {
+  display: inline-block;
+  line-height: 2.5;
+  padding: 3px 15px;
+  text-transform: uppercase;
+}
+
+.box {
+  background-color: #f6f6f6;
+  border-left: 6px solid #50b5e3;
+  border-radius: 6px;
+  padding: 50px;
+  line-height: 1.6;
+}
+
+.text {
+  color: #000000;
+  font-style: serif;
+  display: inline-block;
+}
